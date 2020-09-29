@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 1050px;
+    font-family: sans-serif;
+}
+
+.wrapper    {
+    width: 850px;
+    margin: 0 auto;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+/* ~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~~~~~ */
+
+h1  {
+    position: absolute;
+    display: inline-block;
+    margin-left: 8px;
+    float: left;
+    top: -9px;
+    font-size: 28px;
+    text-transform: capitalize;
+    
+}
+
+nav {
+    display: inline;
+}
+
+
+.logochu {
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.logo-text {
+    display: inline-block;
+}
+
+.logo66 {
+    display: inline-block;
+    content: "";
+    padding-right: 5px;
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    background-color: #6AA4F4;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 28px;
+    border-radius: 50%;
+}
+
+header {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    color: #8C8C8C;
+    font-size: 10px;
+}
+
+.header {
+    float: right;
+    display: inline;
+    margin-right: 30px;
+    padding-top: 10px;
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+    font-size: 16px;
+    padding-left: 15px;
+    text-transform: capitalize;
+}
+
+a{
+    display: inline-block;
+    height: 40px;
+    color: #8C8C8C;
+    text-decoration: none;
+}
+
+a:hover{
+    border-bottom: #6AA4F4 solid 2px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    font-size: 26px;
+    background-color: #6AA4F4;
+    color: #FFFFFF;
+}
+/* ~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~Centerpiece~~~~~~~~~~~~ */
+
+.centerpiece {
+    position: relative;
+    margin-top: -10px;
+    width: 1050px;
+    height: 490px;
+    padding: 50px;
+    background-image: url(../images/background.png);
+    color: #FFFFFF;
+    border-bottom: ridge 2px black;
+}
+
+.centerpiece-text {
+    margin-right: 45px;
+    margin-top: 100px;
+    float: right;
+}
+
+.iphone {
+    position: absolute;
+    margin-left: 100px;
+}
+
+h2  {
+    font-size: 36px;
+}
+
+.centerpiece-text p {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+/* ~~~~~~~~~~~~Centerpiece~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~Info~~~~~~~~~~~~ */
+
+.info {
+    position: relative;
+    margin-top: 70px;
+}
+
+.sec {
+    float: left;
+    width: 33.3333333%;
+}
+
+.pic1, .pic2, .pic3 {
+    margin-left: 65px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.pic1 {
+    background-color: #6AA4F4;
+    
+}
+.pic1 img {
+    margin-top: 20px;
+    margin-left: 38px;
+}
+.pic2 {
+    background-color: #D94748;
+}
+.pic2 img {
+    margin-top: 34px;
+    margin-left: 28px;
+}
+.pic3 {
+    background-color: #EBBB11;
+}
+.pic3 img {
+    margin-top: 25px;
+    margin-left: 27px;
+}
+
+h3 {
+    color: #6AA4F4;
+    text-align: center;
+}
+
+.info p {
+    padding:0 10px;
+    color: #8C8C8C;
+    text-align: center;
+
+}
+
+/* ~~~~~~~~~~~~Info~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~End~~~~~~~~~~~~ */
+.half {
+    float: left;
+    width: 50%;
+}
+
+h4 {
+    color: #6F7173;
+    font-size: 39px;
+}
+
+h5 {
+    margin-left: 36px;
+    margin-bottom: 0px;
+    margin-top: 115px;
+    color: #6F7173;
+    font-size: 29px;
+}
+
+.half li {
+    list-style-type: none;
+    line-height: 2em;
+    font-size: 16px;
+    color: #9F9F9F;
+}
+/* ~~~~~~~~~~~~End~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~Footer~~~~~~~~~~~~ */
+
+footer {
+    border-top: solid 1px #e6ebff;
+    border-bottom: solid 1px #e6ebff;
+    margin: 0  auto;    
+    width: 1050px;
+
+}
+
+h6 {
+    text-align: center;
+    font-size: 14px;
+    color: #9F9F9F;
+}
